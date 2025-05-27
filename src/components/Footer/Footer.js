@@ -5,6 +5,7 @@ export default function Footer(){
     return(
         <div className="footer">
             <span>Medicines</span>
+            <p>commit2 for feature2</p>
             <div className="icons">
 
                   <i className="fas fa-medkit"></i>
