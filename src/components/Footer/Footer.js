@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 export default function Footer(){
     return(
         <div className="footer">
+            <p>commit2 for feature2</p>
             <span>Medicines</span>
             <div className="icons">
 
