@@ -57,6 +57,7 @@ export default function Header() {
     <header>
       <div className="header">
         <p>paragraph for feature3</p>
+        <span>commit2 for feature3</span>
         <div className="headerbar">
           <div className="nav">
             <ul>
