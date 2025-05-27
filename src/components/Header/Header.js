@@ -56,6 +56,7 @@ export default function Header() {
   return (
     <header>
       <div className="header">
+        <p>paragraph for feature3</p>
         <div className="headerbar">
           <div className="nav">
             <ul>
