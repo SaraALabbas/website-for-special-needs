@@ -1,0 +1,53 @@
+.Down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Down h1{
+    margin: 40px 30px;
+    font-size: 27px;
+}
+.Down img{
+    width: 1000px;
+    height: 400px;
+    border-radius: 25px;
+    margin: 20px 2px ;
+}
+.Down p {
+    font-size: 18px;
+}
+.Down p,
+.Down h2{
+    margin: 20px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.Down h2 {
+    font-size: 22px;
+}
+.Down .gl{
+    text-align: left;
+    margin-left: -220px;
+}
+.resources a{
+    color: #4c6faf;
+}
+.Down .support{
+    margin-left: -550px;
+}
+.contact-for-support button {
+    cursor: pointer;
+    margin: 30px 482px 20px 50px;
+    width: 220px;
+    font-weight: bold;
+    color: black;
+    line-height: 60px;
+    background-color: rgb(226, 214, 238);
+    border-radius: 8px;
+    border: 1px solid #4c6faf;
+    box-shadow: 0 10px 15px #5274b3;
+    transition: all 0.2s;
+    font-size: 18px;
+    margin-left: -550px;
+}

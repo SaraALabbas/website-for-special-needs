@@ -1,0 +1,101 @@
+.contactUs {
+    display: flex;
+}
+
+.contactUs .background {
+    width: 300px;
+    height: 100vh; 
+    text-align: left;
+    background-color: #4c6faf;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    
+
+}
+.contactUs .background h1{
+    position: absolute;
+    top: 112px;
+    color: white;
+}
+
+.contactUs img {
+    width: 300px;
+    height: auto; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; 
+    margin: auto; 
+    
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px; 
+    height: 100%;
+    width:100%;
+    max-width: 1000px;
+    margin: auto; 
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; 
+    margin: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+
+ .contactUs .submit {
+    grid-column: span 2; 
+    padding: 10px;
+    background-color: #4c6faf;
+    border: none;
+    border-radius: 4px;  
+    cursor: pointer; 
+    font-size: 24px;
+}
+.contactUs .submit:hover{
+    background-color: #4c6faf; 
+
+
+}
+.phone-input {
+    display: flex; 
+    align-items: center; 
+}
+
+.phone-input select {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-right: 10px; 
+    flex: none; 
+}
+.phone-input input:focus, 
+.phone-input select:focus,
+.contact-form .form-group input:focus,
+.form-group textarea:focus {
+    outline: none; 
+    border-color: #000; 
+}
+
+.phone-input input {
+    flex: 1;
+    
+}

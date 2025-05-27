@@ -1,0 +1,38 @@
+
+.Home{
+    display: flex;
+    
+}
+.Home p{
+    line-height: 75px;
+    color: black;
+    margin: 120px 50px 20px 50px;
+    font-size: 47px;
+    font-weight: bolder;
+
+
+
+}
+.Home img{
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    margin: 70px 50px 20px 100px;
+    border-radius: 12%;
+
+}
+
+.ordernow {
+    cursor: pointer;
+    margin: 30px 482px 20px 50px;
+    width: 160px;
+    font-weight: bold;
+    color: black;
+    line-height: 60px;
+    background-color: rgb(226, 214, 238);
+    border-radius: 8px;
+    border: 1px solid #4c6faf;
+    box-shadow: 0 10px 15px #5274b3;
+    transition: all 0.2s;
+    font-size: 18px;
+}

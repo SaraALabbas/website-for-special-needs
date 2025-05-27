@@ -1,0 +1,123 @@
+
+
+
+
+
+  .containerReq {
+    background-color:whitesmoke;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin:100px auto;
+    max-width: 800px;
+  }
+
+
+.req {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+    height: 70vh;
+    width:100%;
+    background-color:whitesmoke; 
+  }
+
+   h3 {
+    font-size: 20px;
+    color:blueviolet;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .image {
+    margin-top: -50px;
+  }
+  
+  .image img {
+    max-width:100%;
+    width:500px;
+    height:50vh;
+    border-radius: 14px; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+    color: #212529;
+    border: 1px solid #ced4da; 
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="file"]:focus {
+    border-color: #cf8ff5; 
+    outline: none;
+  }
+  
+  .error {
+    color: #dc3545; 
+    font-size: 12px;
+    margin-top: -10px; 
+    margin-bottom: 15px;
+  }
+  
+  .file-inputs {
+    margin-bottom: 20px;
+  }
+  
+  form button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:blueviolet;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #771ab6;
+  }
+  
+  .success-message {
+    text-align: center;
+  }
+  
+  .success-message h3 {
+    font-size: 18px;
+    color: #28a745; 
+    margin-bottom: 20px;
+  }
+  
+  .success-message button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #7ce468;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .success-message button:hover {
+    background-color: #0056b3;
+  }

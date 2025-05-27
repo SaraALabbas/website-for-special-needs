@@ -1,0 +1,80 @@
+
+.jobcontainer {
+  padding: 250px;
+}
+
+
+.job-opportunities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 30px;
+    
+  }
+  
+  .job-card {
+    /* background-color: rgb(164,112,216); */
+    background-color: rgb(226,214,238);
+    /* background-color: #f5e0f8; */
+    border: 1px solid #eedcdc;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+     
+  }
+
+  .job-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .job-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; 
+    margin-bottom: 45px;
+    object-fit: cover; 
+    border: 2px solid #0f0f0f;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    color: #333333;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .job-workplace {
+    font-size: 14px;
+    color: #0a0a0a;
+    margin-bottom: 20px;
+  }
+  
+  .jobcontainer .requirements-button {
+    background-color: #9f7eb6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 14px;
+  }
+  
+  .jobcontainer .requirements-button:hover {
+    background-color:#771ab6;
+  }
+  
+  
+  .text-hope {
+    color:blueviolet;
+    transform: scale(1.5rem);
+    font-size: 30px;
+  }
+  
+  span {
+    color: #771ab6;
+  }
+  
+
+    

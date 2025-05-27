@@ -1,0 +1,116 @@
+.footer {
+    background-color:  rgb(226, 214, 238);
+    padding: 20px;
+    
+}
+
+.footer span {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 31rem;
+    letter-spacing: 2px;
+    color:black;
+    
+}
+
+.container_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 40px 20px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.Follow, .pages, .contact ,.social-media{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.pages {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -35px;
+    line-height: 35px;
+}
+
+.Follow{
+    position: relative;
+    top: -35px;
+    line-height: 40px;
+
+}
+.contact{
+    position: relative;
+    top: -40px;
+}
+
+
+.pages li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.social-media li {
+    display: inline; 
+    margin-right: 10px; 
+}
+
+.social-media a {
+    text-decoration: none; 
+}
+
+.social-media i {
+    font-size: 20px;
+    margin-bottom: 10px; 
+    margin-left: 10px; 
+}
+.icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.icons i:nth-child(1) {
+   position: relative;
+    top: 2130px;
+    right: -50px;
+    transform: rotate(-20deg);
+
+}
+
+.icons i:nth-child(2) {
+    position: relative;
+    top: 2130px;
+    left: -1230px;
+    transform: rotate(10deg);
+
+}
+
+.icons i:nth-child(3) {
+    position: relative;
+    bottom: -2370px;
+    right: -4px;
+    transform: rotate(-20deg);
+
+}
+
+.icons i:nth-child(4) {
+    position: relative;
+    bottom: -2370px;
+    left: -1290px;
+    transform: rotate(20deg);
+
+}
+.icons i {
+    font-size: 30px;
+
+}
