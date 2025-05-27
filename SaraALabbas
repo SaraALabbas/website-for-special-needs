@@ -1,0 +1,50 @@
+[33mcommit e870bb124117289150570390b0bbd79656d88e5d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 130fe77 e245ba1
+Author: Sara ALabbas <saraalabbas1910@gmail.com>
+Date:   Tue May 27 20:18:43 2025 +0300
+
+    Merge branch 'feature3'
+
+[33mcommit 130fe77cadefd6b23ff7fedeb32949b935e4061c[m
+Merge: eba2e8e 9765af4
+Author: Sara ALabbas <saraalabbas1910@gmail.com>
+Date:   Tue May 27 20:17:59 2025 +0300
+
+    Merge branch 'feature2'
+
+[33mcommit e245ba1619996b455d4f04c9c34225b58b205ab6[m
+Author: Sara ALabbas <saraalabbas1910@gmail.com>
+Date:   Tue May 27 20:14:35 2025 +0300
+
+    add paragraph in header file for feature3
+
+[33mcommit 9765af4a4e69273a6ff87a73e1ad5073b6e83ac5[m
+Author: Sara ALabbas <saraalabbas1910@gmail.com>
+Date:   Tue May 27 20:11:58 2025 +0300
+
+    add text file feature2
+
+[33mcommit eba2e8e8cb7a96935d8a396bef5d40c390998478[m
+Author: Sara ALabbas <saraalabbas1910@gmail.com>
+Date:   Tue May 27 20:09:41 2025 +0300
+
+    add text file feature1
+
+[33mcommit ef415ef97b216054139551160016fc630c518764[m
+Merge: 8c89b0c fedf552
+Author: Sara ALabbas <saraalabbas1910@gmail.com>
+Date:   Tue May 27 20:06:52 2025 +0300
+
+    Merge branch 'main' of https://github.com/SaraALabbas/website-for-special-needs
+
+[33mcommit fedf552c9e05a3d07cc2baf6074d1e62eec67847[m
+Author: SaraALabbas <saraalabbas1910@gmail.com>
+Date:   Tue May 27 20:04:28 2025 +0300
+
+    Initial commit
+
+[33mcommit 8c89b0c34cb9ed9e2eaae26b5959ee3aaaa6b62c[m
+Author: Sara ALabbas <saraalabbas1910@gmail.com>
+Date:   Tue May 27 20:03:49 2025 +0300
+
+    Intial commit for project
