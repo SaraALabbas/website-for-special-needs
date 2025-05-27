@@ -7,6 +7,7 @@ function Doctors(){
     return(
         <div>
              <p className="Doctors_title">Most Famous Physical Therapists</p>
+             <p>commit2 for feature1</p>
 
 <div className="DoctorsPanels">
   <div className="Doctors">
